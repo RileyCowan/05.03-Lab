@@ -1,0 +1,47 @@
+/* Article image styling */
+article img {
+  width: 300px;
+  border-radius: 12px; /* creative flair */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: block;
+  margin: 12px 0;
+}
+
+/* Article headings */
+article h1 {
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: white;
+  background-color: red;
+  border-radius: 4px;
+  text-transform: uppercase; /* creative but still compliant */
+}
+
+/* Author name + date */
+#author-name-and-date {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+/* Article text */
+article p, article ol {
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+  color: DarkSlateGray;
+  line-height: 1.6;
+}
+
+/* Share links */
+.share a {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: blue;
+  text-decoration: none;
+}
+
+.share a:hover {
+  text-decoration: underline;
+}
